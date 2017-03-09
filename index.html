@@ -4,14 +4,14 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Un sitio superrápido con Joomla!</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/league.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
-
+		
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
@@ -24,8 +24,103 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-background="images/yo2.png">
+					<div >&nbsp;</div>
+				</section>
+				<section>
+					<section data-background="images/bg.png"
+							data-markdown="slides/optimizacion-tecnica.md"
+							data-separator="^\n\n\n"
+							data-separator-vertical="^\n\n"
+							data-separator-notes="^Note:"
+							data-charset="utf8">
+					</section>
+					<section data-background="images/bg.png"
+							data-markdown="slides/htaccess.md"
+							data-separator="^\n\n\n"
+							data-separator-vertical="^\n\n"
+							data-separator-notes="^Note:"
+							data-charset="utf8">
+					</section>
+				</section>
+				<section>
+					<section data-background="images/bg.png"
+							data-markdown="slides/optimizacion-basica-joomla.md"
+							data-separator="^\n\n\n"
+							data-separator-vertical="^\n\n"
+							data-separator-notes="^Note:"
+							data-charset="utf8">
+					</section>
+					<section data-background="images/cache-joomla2.png">
+						<div >&nbsp;</div>
+					</section>
+				</section>
+				<section>
+					<section data-background="images/bg.png"
+							data-markdown="slides/optimizacion-imagenes.md"
+							data-separator="^\n\n\n"
+							data-separator-vertical="^\n\n"
+							data-separator-notes="^Note:"
+							data-charset="utf8">
+					</section>
+				</section>
+				<section>
+					<section data-background="images/bg.png"
+							data-markdown="slides/optimizacion-contenidos.md"
+							data-separator="^\n\n\n"
+							data-separator-vertical="^\n\n"
+							data-separator-notes="^Note:"
+							data-charset="utf8">
+					</section>
+					<section data-background="images/jch.png">
+						<div >&nbsp;</div>
+					</section>
+				</section>
+				<section>
+					<section data-background="images/bg.png"
+							data-markdown="slides/comprobando-resultados.md"
+							data-separator="^\n\n\n"
+							data-separator-vertical="^\n\n"
+							data-separator-notes="^Note:"
+							data-charset="utf8">
+					</section>
+					<section data-background="images/gtmetrix1.png">
+						<div >&nbsp;</div>
+					</section>
+					<section data-background="images/gtmetrix2.png">
+						<div >&nbsp;</div>
+					</section>
+					<section data-background="images/gtmetrix3.png">
+						<div >&nbsp;</div>
+					</section>
+					<section data-background="images/gtmetrix4.png">
+						<div >&nbsp;</div>
+					</section>
+					<section data-background="images/gtmetrix5.png">
+						<div >&nbsp;</div>
+					</section>
+				</section>
+				<section>
+					<section data-background="images/bg.png"
+							data-markdown="slides/yo-es-que-estoy-mu-loco.md"
+							data-separator="^\n\n\n"
+							data-separator-vertical="^\n\n"
+							data-separator-notes="^Note:"
+							data-charset="utf8">
+					</section>
+					<section data-background="images/plugin-cache.png">
+						<div >&nbsp;</div>
+					</section>
+				</section>
+				<section>
+					<section data-background="images/bg.png"
+							data-markdown="slides/gracias.md"
+							data-separator="^\n\n\n"
+							data-separator-vertical="^\n\n"
+							data-separator-notes="^Note:"
+							data-charset="utf8">
+					</section>
+				</section>
 			</div>
 		</div>
 
@@ -36,7 +131,7 @@
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				history: true,
-
+				showNotes: true,
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
