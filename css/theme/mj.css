@@ -17,6 +17,33 @@ section.present{
 img {
   max-height: 50vh !important; }
 
+.logo {
+  background-image: url("../../images/logo_mj_round.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 85px;
+  height: 85px;
+  width: 100%; }
+
+.footer {
+  width: 100%;
+  background-color: #DDDEDE;
+  float: none;
+  position: absolute;
+  bottom: 0px;
+  padding: 0 10px !important;
+  font-size: 24px !important; }
+
+.nombre {
+  text-align: right;
+  float: right;
+  margin-right: 5px; }
+
+.sitio {
+  float: left;
+  text-align: left;
+  margin-left: 5px; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
