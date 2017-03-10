@@ -22,11 +22,16 @@ body {
 
 .reveal {
   font-family: "Lato", sans-serif;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: normal;
-  color: #354963; }
+  color: #eee; }
 
 ::selection {
+  color: #fff;
+  background: #FF5E99;
+  text-shadow: none; }
+
+::-moz-selection {
   color: #fff;
   background: #FF5E99;
   text-shadow: none; }
@@ -46,7 +51,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #ff2121;
+  color: #eee;
   font-family: "League Gothic", Impact, sans-serif;
   font-weight: normal;
   line-height: 1.2;
@@ -211,7 +216,7 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #ff2121;
+  color: #13DAEC;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -246,7 +251,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #ff2121;
+  border-color: #13DAEC;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -254,19 +259,19 @@ body {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #ff2121; }
+  border-right-color: #13DAEC; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: #ff2121; }
+  border-left-color: #13DAEC; }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #ff2121; }
+  border-bottom-color: #13DAEC; }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #ff2121; }
+  border-top-color: #13DAEC; }
 
 .reveal .controls .navigate-left.enabled:hover {
   border-right-color: #71e9f4; }
@@ -287,7 +292,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #ff2121;
+  background: #13DAEC;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
