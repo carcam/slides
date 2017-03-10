@@ -4,14 +4,14 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Un sitio superrápido con Joomla!</title>
+		<title>¿Qué se puede hacer con Joomla!?</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/league.css">
+		<link rel="stylesheet" href="css/theme/mj.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
-		
+
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
@@ -24,8 +24,9 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-background="images/portada.png">
-					<div >&nbsp;</div>
+				<div class="logo"></div>
+				<section>
+					<h1>¿Qué se puede hacer con Joomla!?</h1>
 				</section>
 				<section>
 					<section data-background="images/bg.png"
@@ -152,7 +153,15 @@
 							data-charset="utf8">
 					</section>
 				</section>
-
+				<section>
+					<section data-background="images/bg.png"
+							data-markdown="slides/que-hacer-con-joomla/jdmadrid.md"
+							data-separator="^\n\n\n"
+							data-separator-vertical="^\n\n"
+							data-separator-notes="^Note:"
+							data-charset="utf8">
+					</section>
+				</section>
 				<section>
 					<section data-background="images/bg.png"
 							data-markdown="slides/jdgr16/gracias.md"
@@ -162,6 +171,14 @@
 							data-charset="utf8">
 					</section>
 				</section>
+				<div class="footer">
+					<p class="nombre">
+						Carlos Cámara - @carcam
+					</p>
+					<p class="sitio">
+					<a href="https://ManualesJoomla.es">Aprende Joomla!</a>
+				</p>
+				</div>
 			</div>
 		</div>
 
@@ -173,6 +190,8 @@
 			Reveal.initialize({
 				history: true,
 				showNotes: true,
+				width: "100%",
+				height: 700,
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },

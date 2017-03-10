@@ -3,3 +3,4 @@
 * Asociación de idiomas
 * Creación rápida de artículos desde el menú
 * Diferentes perfiles para el editor de textos
+* Gestión de menús para la administración
