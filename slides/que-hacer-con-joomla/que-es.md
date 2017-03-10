@@ -1,4 +1,4 @@
-##Qué es Joomla!
+## ¿Qué es Joomla!?
 * Gestor de contenidos en PHP y MySQL
 * Fácilmente ampliable con extensiones:
   * Componentes, módulos y plugins
