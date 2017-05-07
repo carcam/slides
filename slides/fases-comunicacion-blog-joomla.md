@@ -1,5 +1,5 @@
 ## Los artículos de Joomla
-
+ METER IMAGEN DE CREACIÓN DE ARTÍCULO + METADESCRIPTION
 
 Note:
 * Mi opción preferida porque tiene todo lo necesario para escribir un blog: KISS!!

@@ -1,5 +1,8 @@
 ## Kits de Construcción de Contenidos (CCK)
-https://extensions.joomla.org/extensions/authoring-a-content/blog/
+- K2
+- Zoo
+- Sedblog
+- jKit ...
 
 Note:
 * 43 extensiones de CCK

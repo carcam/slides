@@ -1,6 +1,5 @@
-#4 fases de una campaña de Marketing
+# Fases de nuestra campaña de Marketing Digital
 
-1. Promoción de la campaña
-1. Captación de interesados
-1. Llamadas a la acción
-1. Evaluación de resultados
+- Comunicación de la campaña
+- Llamadas a la acción
+- Evaluación de resultados
