@@ -18,7 +18,7 @@ img {
   max-height: 40vh !important; }
 
 .logo {
-  background-image: url("../../images/logo_mj_round.png");
+  background-image: url("../../images/logo_mj.svg");
   background-repeat: no-repeat;
   background-position: top right;
   background-size: 85px;
@@ -42,8 +42,15 @@ img {
 .sitio {
   float: left;
   text-align: left;
+  line-height: 50px;
   margin-left: 5px; }
-
+ .sitio a{
+     line-height: 35px;
+ }
+.sitio img{
+    float: left;
+    width: 50px;
+}
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -86,17 +93,21 @@ body {
   text-shadow: none;
   word-wrap: break-word; }
 
-.reveal h1 {
-  font-size: 1.8em; }
+  .reveal h1{
+      text-align: center;
+      width: 100%;
+      font-size: 1.6em;
+      margin-top: -20px;
+  }
 
 .reveal h2 {
-  font-size: 1.6em; }
-
-.reveal h3 {
   font-size: 1.3em; }
 
-.reveal h4 {
+.reveal h3 {
   font-size: 1em; }
+
+.reveal h4 {
+  font-size: 0.8em; }
 
 .reveal h1 {
   text-shadow: none; }
@@ -133,7 +144,7 @@ body {
   list-style-type: decimal; }
 
 .reveal ul {
-  list-style-type: disc; }
+  list-style-type: none; }
 
 .reveal ul ul {
   list-style-type: square; }
@@ -242,7 +253,7 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #990000;
+  color: #cc0000;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
