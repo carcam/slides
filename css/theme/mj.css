@@ -13,10 +13,25 @@ section.present{
 }*/
 .two-floating-elements img {
   max-height: 30vh !important; }
-
+.column-1-2{
+  float:left;
+  width: 45vw;
+}
+.column-1-3{
+  float:left;
+  width: 30vw;
+}
+.row{
+  clear: both;
+}
+.small-font div{
+  font-size: smaller!important;
+}
 img {
-  max-height: 40vh !important; }
-
+  max-height: 60vh !important; }
+.hp-margin-top{
+  margin-top: 20px;
+}
 .logo {
   background-image: url("../../images/logo_mj.svg");
   background-repeat: no-repeat;
@@ -27,7 +42,7 @@ img {
 
 .footer {
   width: 100%;
-  background-color: #DDDEDE;
+  background-color: transparent;
   float: none;
   position: absolute;
   bottom: 0px;

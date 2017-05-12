@@ -1,4 +1,7 @@
 # Creación de Landing Pages con Joomla!
-- Gestor de artículos
+<img src="/images/module-positions-complex.png"/>
+
+
+Note:
 - Gestor de módulos
 - Componente de formularios
