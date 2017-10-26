@@ -15,3 +15,4 @@ Preparamos un membership site de cursos online:
 Note:
 * Grupos de usuario: Lo que el usuario puede hacer
 * Nivel de acceso: Lo que el usuario puede ver
+* Sitio con Registro de usuarios en Deevop
