@@ -1,1 +1,1 @@
-# Membership Sites con Joomla!
+# ¿Está mi Prestashop preparado para vender más?
