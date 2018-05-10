@@ -1,1 +1,1 @@
-# Membership Sites con Joomla!
+# Desarrollo de plugins en Joomla!

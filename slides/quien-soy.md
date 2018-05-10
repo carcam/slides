@@ -8,7 +8,8 @@
             <h3 style="text-align: left; margin-left: 140px;">Carlos Cámara</h3>
             <div style="text-align: left; margin-left: 150px;margin-bottom: 20px;">
             Twitter: @carcam<br/>
-            Email: carlos@hepta.es
+            Email: carlos@hepta.es<br/>
+			Web: www.hepta.es
             </div>
             <ul style="">
                 <li>Consultor web</li>
