@@ -13,6 +13,11 @@ section.present{
 }*/
 .two-floating-elements img {
   max-height: 30vh !important; }
+.grid-2columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+  grid-column-gap: 20px;
+}
 .column-1-2{
   float:left;
   width: 45vw;
