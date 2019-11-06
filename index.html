@@ -6,11 +6,12 @@
 
 		<title>Desarrollo de Plugins con Joomla</title>
 
+		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/mastermind.css">
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="lib/css/monokai.css">
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -135,7 +136,6 @@
 			</div>
 		</div>
 
-		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
 	
 		<script>
@@ -147,7 +147,9 @@
 	</script>
 
 		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 				history: true,
 				progress: true,
@@ -157,12 +159,11 @@
 				margin: 0,
 				minScale: 1,
 				maxScale:1,
-				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: 'plugin/highlight/highlight.js', async: true }
 				]
 			});
 			Reveal.configure({ slideNumber: 'c/t' });
