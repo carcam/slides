@@ -15,19 +15,19 @@
             </ul>
             <div class="grid-2columns">
                 <div class="">
-                    <img src="images/mastermindjoomla.svg" style="width:140px;height:140px;padding:10px;"/><br/>
+                    <img src="images/mastermindjoomla.svg" style="width:100px;height:100px;padding:10px;"/><br/>
                     MastermindJoomla.com
                 </div>
                 <div class="">
-                    <img src="images/logo_mj.svg" style="height:100px;padding:20px;"/><br/>
+                    <img src="images/logo_mj.svg" style="height:80px;padding:20px;"/><br/>
                     ManualesJoomla.es
                 </div>
                 <div class="">
-                    <img src="images/hepta-extensions-logo.svg" style="height:80px;padding:30px;"/><br/>
+                    <img src="images/hepta-extensions-logo.svg" style="height:60px;padding:30px;"/><br/>
                     https://extensions.hepta.es
                 </div>
                 <div class="">
-                    <img src="images/prestaradio.svg" style="height:100px;padding:30px 40px;"/><br/>
+                    <img src="images/prestaradio.svg" style="height:80px;padding:30px 40px;"/><br/>
                     PrestaRadio.com            
                 </div>
             </div>

@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Desarrollo de Plugins con Joomla</title>
+		<title>Build anything with Custom Fields</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
@@ -54,16 +54,155 @@
 				</section>
 				<section>
 					<section
+							data-markdown="slides/build-anything-with-custom-fields/core-components-with-cf.md"
+							data-separator="^\n\n\n"
+							data-separator-vertical="^\n\n"
+							data-separator-notes="^Note:"
+							data-charset="utf8">
+					</section>
+					<section>
+							<h1>Custom Fields for Users</h1>
+							<div class="grid-2columns">
+								<div>
+									<img src="images/build-anything-with-custom-fields/com_users.png" />
+									<small>Custom Field definition for Users</small>
+								</div>
+								<div>
+									<img src="images/build-anything-with-custom-fields/com_users_new_user.png" />
+									<small>Custom fields detail in the user edit</small>
+								</div>
+							</div>
+					</section>
+					<section>
+							<h1>Custom Fields for Contacts</h1>
+							<h2>Custom fields for Forms</h2>
+							<div class="grid-2columns">
+								<div>
+									<img src="images/build-anything-with-custom-fields/com_contacts_mail.png" />
+									<small>Custom Field definition for Mail form contact</small>
+								</div>
+								<div>
+									<img src="images/build-anything-with-custom-fields/com_contacts_form.png" />
+									<small>Custom field in the contact form</small>
+								</div>
+							</div>
+					</section>
+					<section>
+							<h1>Custom Fields for Weblinks</h1>
+							<div class="">
+								<div>
+									<img src="images/build-anything-with-custom-fields/com_weblinks.png" />
+									<div><small>Custom Field definition for links</small></div>
+								</div>
+							</div>
+					</section>
+					<section>
+							<h1>Custom Fields for Content</h1>
+							<div class="grid-2columns">
+								<div>
+									<img src="images/build-anything-with-custom-fields/com_content_categories.png" />
+									<small>Custom Field definition for articles</small>
+								</div>
+								<div>
+									<img src="images/build-anything-with-custom-fields/com_content_articles.png" />
+									<small>Custom field definition for categories</small>
+								</div>
+							</div>
+					</section>
+				</section>
+				<section>
+					<section
 							data-markdown="slides/build-anything-with-custom-fields/build-a-podcast-site.md"
 							data-separator="^\n\n\n"
 							data-separator-vertical="^\n\n"
 							data-separator-notes="^Note:"
 							data-charset="utf8">
+					</section>					
+					<section>
+							<h1>Good Podcast Content</h1>
+							<div class="">
+								<div>
+									<img src="images/build-anything-with-custom-fields/joomcast-at-joomdev.png" />
+									<div>
+										<small>We will use JoomCast amazing podcast content in this example</small>
+									</div>
+								</div>
+							</div>
 					</section>
 				</section>
 				<section>
+						<section>
+								<h1>How to</h1>
+								<div class="">
+									<ol>
+										<li>Install any template of your liking</li>
+										<li>Create a URL Custom Field for embedded player</li>
+										<li>Create a Text Custom Field for <em>Duration</em></li>
+									</ol>
+								</div>
+						</section>
+						<section>
+								<h1>Podcast Custom Fields</h1>
+								<div class="">
+									<div>
+										<img src="images/build-anything-with-custom-fields/podcast_fields.png" />
+										<div>
+											<small>We will use 2 fields, one for the podcast url and the other to show episode duration</small>
+										</div>
+									</div>
+								</div>
+						</section>
+						<section>
+								<h1>Result</h1>
+								<div class="">
+									<div>
+										<img src="images/build-anything-with-custom-fields/url_field_no_override.png" />
+										<div>
+											<small>This is how it looks our site with the custom fields (no player yet)</small>
+										</div>
+									</div>
+								</div>
+						</section>
+						<section>
+								<h1>Template override for URL field</h1>
+								<div >
+										<div>
+											<pre>
+												<code data-trim data-noescape>
+													&lt;?php
+
+													defined('_JEXEC') or die;
+													
+													$value = $field->value;
+													
+													if ($value == '')
+													{
+														return;
+													}
+													
+													echo '&lt;iframe src="' . $value . '" height="150px" width="800px" frameborder="0" scrolling="no"></iframe>';
+												</code>
+											</pre>
+										</div>										
+									</div>									
+						</section>
+						<section>
+							<h1>We have the player at last!</h1>
+								<div class="grid-2columns">
+										<div>
+											<img src="images/build-anything-with-custom-fields/template_override_detail.png" />
+											<small>Detail of the URL custom field template override</small>
+										</div>
+										<div>
+											<img src="images/build-anything-with-custom-fields/url_field_override.png" />
+											<div><small>Player showing on the page</small></div>
+										</div>	
+								</div>
+						</section>
+				</section>
+				<section>
 					<section
-							data-markdown="slides/desarrollo-plugins-joomla/estructura-plugin.md"
+							data-markdown="slides/build-anything-with-custom-fields/spice-it-up.md"
 							data-separator="^\n\n\n"
 							data-separator-vertical="^\n\n"
 							data-separator-notes="^Note:"
@@ -71,38 +210,23 @@
 					</section>
 				</section>
 				<section>
-					<section
-							data-markdown="slides/desarrollo-plugins-joomla/manifest.md"
-							data-separator="^\n\n\n"
-							data-separator-vertical="^\n\n"
-							data-separator-notes="^Note:"
-							data-charset="utf8">
+					<section>
+							<section>
+									<h1>Result</h1>
+									<div class="">
+										<div>
+											<img src="images/build-anything-with-custom-fields/url_field_no_override.png" />
+											<div>
+												<small>This is how it looks our site with the custom fields</small>
+											</div>
+										</div>
+									</div>
+							</section>
 					</section>
 				</section>
 				<section>
 					<section
-							data-markdown="slides/desarrollo-plugins-joomla/fichero_principal.md"
-							data-separator="^\n\n\n"
-							data-separator-vertical="^\n\n"
-							data-separator-notes="^Note:"
-							data-charset="utf8">
-					</section>
-				</section>
-				<section>
-					<h1>Paso 1</h1>
-					<p>Creamos la estructura básica del plugin y vemos que se instala correctamente</p>
-				</section>
-				<section>
-					<h1>Paso 2</h1>
-					<p>Añadimos el JavaScript necesario para que nuestro plugin funcione</p>
-				</section>
-				<section>
-					<h1>Paso 3</h1>
-					<p>Añadimos las traducciones y mejoramos el aspecto </p>
-				</section>
-				<section>
-					<section
-							data-markdown="slides/desarrollo-plugins-joomla/gracias.md"
+							data-markdown="slides/build-anything-with-custom-fields/thank-you.md"
 							data-separator="^\n\n\n"
 							data-separator-vertical="^\n\n"
 							data-separator-notes="^Note:"
@@ -112,7 +236,7 @@
 			</div>
 			<div class="footer">
 				<p class="sitio">
-				<a href="https://www.hepta.es">Carlos Cámara<br/>Carlos@hepta.es</a>
+				<a href="https://www.hepta.es">Carlos Cámara<br/>carlos@hepta.es</a>
 				</p>
 			</div>
 		</div>
@@ -140,11 +264,13 @@
 				margin: 0,
 				minScale: 1,
 				maxScale:1,
+				pdfMaxPagesPerSlide: 1,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
+					{ src: 'plugin/highlight/highlight.js', async: true },
+
 				]
 			});
 			Reveal.configure({ slideNumber: 'c/t' });
